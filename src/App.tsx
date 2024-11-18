@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Header from './components/Header';
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
+      <Header />
       <RouterProvider router={router} />
     </>
   )
