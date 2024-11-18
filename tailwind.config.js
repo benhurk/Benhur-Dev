@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'main': '"Anonymous Pro", monospace'
+      },
+
+      dropShadow: {
+        '4dark': '4px 4px 4px rgba(0, 0, 0, 0.75)'
+      }
+    },
   },
   plugins: [],
 }
