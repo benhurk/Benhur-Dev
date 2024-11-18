@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .glow {
+        @apply relative p-1
+    }
+
+    .glow-sm {
+        @apply p-0.5
+    }
+    
+    .glow::before, .glow::after {
+        content: '';
+        z-index: -1;
+        @apply absolute top-0 left-0 size-full rounded-full animate-border-spin;
+    }
+
+    .glow::before {
+        filter: blur(1.5rem);
+    }
+
+    .glow-sm::before {
+        filter: blur(0.25rem);
+    }
+
+    .glow-rgb::before, .glow-rgb::after {
+        background-image: conic-gradient(rgb(244 63 94), rgb(16 185 129), rgb(14 165 233), rgb(244 63 94));
+    }
+
+    .glow-white-blue::before, .glow-white-blue::after {
+        background-image: conic-gradient(#fff, rgb(56 189 248), #fff);
+    }
+}

@@ -12,6 +12,18 @@ export default {
 
       dropShadow: {
         '4dark': '4px 4px 4px rgba(0, 0, 0, 0.75)'
+      },
+      
+      keyframes: {
+        'border-spin': {
+          '100%': {
+            'transform': 'rotate(-360deg)'
+          }
+        }
+      },
+
+      animation: {
+        'border-spin': 'border-spin 3s linear infinite'
       }
     },
   },
