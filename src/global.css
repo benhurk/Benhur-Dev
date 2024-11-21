@@ -22,6 +22,11 @@
     }
 
     .glow-sm::before {
+        filter: blur(0.15rem);
+        transition: filter 0.2s ease-in-out;
+    }
+
+    .glow-sm:hover::before {
         filter: blur(0.25rem);
     }
 
