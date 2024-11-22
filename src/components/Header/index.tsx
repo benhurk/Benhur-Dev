@@ -8,10 +8,10 @@ export default function Header() {
                         before:bg-black before:absolute before:top-0 before:left-0 before:block before:size-full before:opacity-60'>
 
             <div className="relative top-1/2 -translate-y-1/2">
-                <div className='glow glow-rgb mx-auto lg:mb-8 md:mb-6 mb-3 md:w-48 md:h-48 lg:w-56 lg:h-56 w-36 h-36 rounded-full'>
+                <div className='glow glow-rgb mx-auto lg:mb-8 md:mb-6 mb-2 md:w-48 md:h-48 lg:w-56 lg:h-56 w-36 h-36 rounded-full'>
                     <img className='w-full h-full object-cover object-center rounded-full' src='/pfp.jpg' />
                 </div>
-                <div className="text-center font-main text-white drop-shadow-4dark lg:mb-8 md:mb-6 mb-3">
+                <div className="text-center font-main text-white drop-shadow-4dark lg:mb-8 md:mb-6 mb-2">
                     <h1 className='lg:text-4xl md:text-3xl text-2xl mb-1'>Bem Hur Küchler</h1>
                     <h2 className="lg:text-xl text-lg">Desenvolvedor front-end</h2>
                 </div>
