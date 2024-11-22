@@ -16,13 +16,13 @@ export default function Header() {
                     <h2 className="lg:text-xl text-lg">Desenvolvedor front-end</h2>
                 </div>
                 <div className="flex gap-16 justify-center">
-                    <a href="https://linkedin.com/in/bem-hur-kuchler" target='_blank' className='glow glow-sm glow-white-blue'>
+                    <a href="https://linkedin.com/in/bem-hur-kuchler" target='_blank' className='glow glow-sm glow-white-blue rounded-full'>
                         <img className='lg:w-12 md:w-11 w-9' src={linkedIcon} alt="LinkedIn" />
                     </a>
-                    <a href="https://github.com/benhurk" target='_blank' className='glow glow-sm glow-white-blue'>
+                    <a href="https://github.com/benhurk" target='_blank' className='glow glow-sm glow-white-blue rounded-full'>
                         <img className='lg:w-12 md:w-11 w-9' src={gitIcon} alt="GitHub" />
                     </a>
-                    <a href="" className='glow glow-sm glow-white-blue'>
+                    <a href="" className='glow glow-sm glow-white-blue rounded-full'>
                         <img className='lg:w-12 md:w-11 w-9' src={cvIcon} alt="CV" />
                     </a>
                 </div>

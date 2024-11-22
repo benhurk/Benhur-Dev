@@ -14,7 +14,8 @@
     .glow::before, .glow::after {
         content: '';
         z-index: -1;
-        @apply absolute top-0 left-0 size-full rounded-full animate-border-spin;
+        border-radius: inherit;
+        @apply absolute top-0 left-0 size-full animate-border-spin;
     }
 
     .glow::before {
