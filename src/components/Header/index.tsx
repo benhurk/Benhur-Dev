@@ -4,7 +4,7 @@ import linkedIcon from '../../assets/linkedin-icon.png';
 
 export default function Header() {
     return (
-        <header className='relative w-screen max-w-[1920px] md:h-[396px] lg:h-[496px] h-[296px] bg-[url("/header-bg.gif")] bg-no-repeat bg-center bg-cover overflow-hidden
+        <header className='relative w-screen max-w-[1920px] md:h-[396px] lg:h-[496px] h-[296px] bg-[url("/header-bg.gif")] bg-no-repeat bg-cover overflow-hidden
                         before:bg-black before:absolute before:top-0 before:left-0 before:block before:size-full before:opacity-60'>
 
             <div className="relative top-1/2 -translate-y-1/2">

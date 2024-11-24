@@ -22,6 +22,10 @@
     body {
         @apply dark:bg-slate-950 dark:text-neutral-50 font-main;
     }
+
+    header {
+        background-position: 0 35%;
+    }
 }
 
 @layer utilities {
