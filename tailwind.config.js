@@ -13,6 +13,17 @@ export default {
       colors: {
         'dark': '#051923',
         'light': '#E9FFF9'
+      },
+
+      keyframes: {
+        'blink': {
+          'from, to': { color: 'transparent' },
+          '50%': { color: 'white' }
+        }
+      },
+
+      animation: {
+        'blink': 'blink 1s step-end infinite'
       }
     },
   },
