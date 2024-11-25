@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     path: '/',
     element: <div></div>
   }
-])
+]);
 
 function App() {
   const { darkMode } = useContext(SettingsContext);
@@ -22,7 +22,7 @@ function App() {
   return (
     <SettingsProvider>
       <Header />
-      <main>
+      <main className='lg:max-w-[1024px] max-w-[90%] mx-auto py-8'>
         <RouterProvider router={router} />
       </main>
     </SettingsProvider>
