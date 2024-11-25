@@ -10,8 +10,9 @@ export default {
         'main': '"Anonymous Pro", monospace'
       },
 
-      dropShadow: {
-        '4dark': '4px 4px 4px rgba(0, 0, 0, 0.75)'
+      colors: {
+        'dark': '#051923',
+        'light': '#E9FFF9'
       }
     },
   },
