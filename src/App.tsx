@@ -1,16 +1,9 @@
 import { useContext, useEffect } from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import SettingsProvider, { SettingsContext } from './contexts/SettingsContext';
 
 import Header from './components/Header';
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <div></div>
-  }
-]);
+import AboutSection from './components/AboutSection';
 
 function App() {
   const { darkMode } = useContext(SettingsContext);
@@ -23,7 +16,7 @@ function App() {
     <SettingsProvider>
       <Header />
       <main className='lg:max-w-[1024px] max-w-[90%] mx-auto py-8'>
-        <RouterProvider router={router} />
+        <AboutSection />
       </main>
     </SettingsProvider>
   )
