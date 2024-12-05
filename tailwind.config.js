@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'main': '"Anonymous Pro", monospace'
+        'main': '"Geo", sans-serif'
       },
 
       colors: {
