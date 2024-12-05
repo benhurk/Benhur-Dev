@@ -25,11 +25,11 @@
     }
 
     body {
-        @apply dark:bg-dark dark:text-light bg-light text-dark font-main;
+        @apply bg-dark text-light font-main overflow-x-hidden;
     }
 
     header {
-        background-image: linear-gradient(to bottom, transparent 0%, var(--dark)), url("/header-bg.gif");
+        background-image: linear-gradient(to bottom, transparent 50%, var(--dark)), url("/header-bg.gif");
         background-position: 0 35%;
     }
 }
@@ -56,12 +56,12 @@
     }
 
     .glow-sm::before {
-        filter: blur(0.1rem);
-        transition: filter 0.2s ease-in-out;
+        filter: blur(0.18rem);
+        transition: filter 0.3s ease-in-out;
     }
 
     .glow-sm:hover::before {
-        filter: blur(0.2rem);
+        filter: blur(0.3rem);
     }
 
     .glow-rgb::before, .glow-rgb::after {

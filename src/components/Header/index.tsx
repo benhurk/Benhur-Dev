@@ -9,7 +9,7 @@ export default function Header() {
                 <div className='glow glow-rgb mx-auto lg:mb-8 md:mb-6 mb-2 lg:size-52 md:size-48 size-36 rounded-full'>
                     <img className='w-full h-full object-cover object-center rounded-full' src='/pfp.jpg' />
                 </div>
-                <div className="w-fit md:text-4xl text-2xl font-bold mx-auto md:p-1 p-0.5 lg:mb-8 md:mb-6 mb-2 bg-black">
+                <div className="w-fit tracking-wide md:text-4xl text-2xl font-bold mx-auto md:p-1 p-0.5 lg:mb-8 md:mb-6 mb-2 bg-black">
                     <span>:\</span>
                     <h1 className='inline text-center'>
                         {'Bem Hur Küchler'}
