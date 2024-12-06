@@ -29,7 +29,7 @@
     }
 
     header {
-        background-image: linear-gradient(to bottom, transparent 50%, var(--dark)), url("/header-bg.gif");
+        background-image: linear-gradient(to bottom, transparent 40%, var(--dark)), url("/header-bg.gif");
         background-position: 0 35%;
     }
 }
