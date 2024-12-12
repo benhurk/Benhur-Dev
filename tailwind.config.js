@@ -23,7 +23,8 @@ export default {
       },
 
       animation: {
-        'blink': 'blink 1s step-end infinite'
+        'blink': 'blink 1s step-end infinite',
+        'spin-slow': 'spin 20s linear infinite'
       }
     },
   },
