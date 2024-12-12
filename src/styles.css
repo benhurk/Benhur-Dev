@@ -29,7 +29,7 @@
     }
 
     header {
-        background-image: linear-gradient(to bottom, transparent 40%, var(--dark)), url("/header-bg.gif");
+        background-image: linear-gradient(to bottom, transparent 25%, var(--dark)), url("/header-bg.gif");
         background-position: 0 35%;
     }
 }
@@ -57,11 +57,11 @@
 
     .glow-sm::before {
         filter: blur(0.18rem);
-        transition: filter 0.3s ease-in-out;
+        transition: filter 0.2s ease-in-out;
     }
 
     .glow-sm:hover::before {
-        filter: blur(0.3rem);
+        filter: blur(0.36rem);
     }
 
     .glow-rgb::before, .glow-rgb::after {
