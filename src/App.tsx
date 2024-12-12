@@ -15,7 +15,7 @@ function App() {
   return (
     <SettingsProvider>
       <Header />
-      <main className='lg:max-w-[1024px] max-w-[90%] mx-auto py-8'>
+      <main className='lg:max-w-[768px] max-w-[90%] mx-auto py-8'>
         <AboutSection />
       </main>
     </SettingsProvider>
