@@ -12,7 +12,7 @@ export default function Header() {
                 <div className="w-fit tracking-wide md:text-4xl text-3xl font-bold mx-auto p-1 lg:mb-8 mb-6 bg-black">
                     <span>:\</span>
                     <h1 className='inline text-center'>
-                        {'Bem Hur Küchler'}
+                        {' Bem Hur Küchler '}
                     </h1>
                     <span>{'>'}</span>
                     <span className='animate-blink'>_</span>
