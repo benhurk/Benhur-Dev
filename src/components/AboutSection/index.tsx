@@ -13,23 +13,18 @@ import scIcon from '../../assets/styledcomponents.png';
 import reduxIcon from '../../assets/redux.png';
 import motionIcon from '../../assets/framermotion.png';
 import figmaIcon from '../../assets/figma.png';
-import char from '../../assets/char.jpg';
 import HoverIcon from '../HoverIcon';
 
 export default function AboutSection() {
     return (
         <section>
-            <div className="flex md:flex-row flex-col gap-8 mb-16">
-                <div className='md:block hidden self-center min-w-[236px] border-2 border-white'>
-                    <img src={char} />
-                </div>
-                <div className='w-full flex flex-col justify-between'>
-                    <div>
+            <div>
+                <div className='mb-4'>
                         <h2 className='md:text-4xl text-3xl font-bold mb-2 tracking-wide border-b border-slate-600'>
                             Desenvolvedor front-end
                         </h2>
-                        <address className='md:*:text-2xl text-xl *:flex *:items-center *:gap-1 md:mb-0 mb-4'>
-                            <span className="text-slate-200">
+                        <address className='md:*:text-2xl text-xl *:flex *:items-center *:gap-1'>
+                            <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
@@ -45,9 +40,9 @@ export default function AboutSection() {
                                 </a>
                             </div>
                         </address>
-                    </div>
-                    <div className='glow glow-sm glow-rgb'>
-                        <div className='bg-black grid md:grid-cols-5 grid-cols-3 gap-4 gap-y-6 place-items-center p-5 overflow-hidden'>
+                </div>
+                <div className='glow glow-sm glow-rgb mb-16'>
+                        <div className='bg-black grid md:grid-cols-5 grid-cols-3 gap-4 place-items-center p-5 overflow-hidden'>
                             <HoverIcon img={htmlIcon} text='HTML' />
                             <HoverIcon img={reactIcon} text='React' />
                             <HoverIcon img={jsIcon} text='JavaScript' />
@@ -63,6 +58,39 @@ export default function AboutSection() {
                             <HoverIcon img={reduxIcon} text='Redux' />
                             <HoverIcon img={motionIcon} text='Framer Motion' />
                             <HoverIcon img={figmaIcon} text='Figma' />
+                        </div>
+                </div>
+                <div className='relative w-full mx-auto shrink-0'> 
+                    <div className='relative flex justify-between w-full *:relative'>
+                        <div>
+                            <div className='flex flex-col gap-4 items-center'>
+                                <div className='w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10'><div className='size-full bg-slate-900' /></div>
+                                <p className='text-xl text-center'>
+                                    <time className='border-b border-slate-600'>12/23 - 03/25</time>
+                                    <br/>
+                                    Curso
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex flex-col gap-4 items-center'>
+                                <div className='w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10'><div className='size-full bg-slate-900' /></div>
+                                <p className='text-xl text-center'>
+                                    <time className='border-b border-slate-600'>06/24 - Atual</time>
+                                    <br/>
+                                    Projetos & Freela
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='flex flex-col gap-4 items-center'>
+                                <div className='w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10'><div className='size-full bg-slate-900' /></div>
+                                <p className='text-xl text-center'>
+                                    <time className='border-b border-slate-600'>??/?? - ??/??</time>
+                                    <br/>
+                                    Curso
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
