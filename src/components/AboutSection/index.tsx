@@ -42,7 +42,7 @@ export default function AboutSection() {
                         </address>
                 </div>
                 <div className='glow glow-sm glow-rgb mb-16'>
-                        <div className='bg-black grid md:grid-cols-5 grid-cols-3 gap-4 place-items-center p-5 overflow-hidden'>
+                        <div className='bg-dark grid md:grid-cols-5 grid-cols-3 gap-8 place-items-center p-8 overflow-hidden'>
                             <HoverIcon img={htmlIcon} text='HTML' />
                             <HoverIcon img={reactIcon} text='React' />
                             <HoverIcon img={jsIcon} text='JavaScript' />
