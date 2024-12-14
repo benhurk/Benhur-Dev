@@ -1,18 +1,4 @@
-import htmlIcon from '../../assets/html.png';
-import reactIcon from '../../assets/react.png';
-import jsIcon from '../../assets/js.png';
-import tsIcon from '../../assets/ts.png';
-import jqueryIcon from '../../assets/jquery.png';
-import jestIcon from '../../assets/jest.png';
-import cypressIcon from '../../assets/cypress.png';
-import cssIcon from '../../assets/css.png';
-import sassIcon from '../../assets/sass.png';
-import twIcon from '../../assets/tailwind.png';
-import bootstrapIcon from '../../assets/bootstrap.png';
-import scIcon from '../../assets/styledcomponents.png';
-import reduxIcon from '../../assets/redux.png';
-import motionIcon from '../../assets/framermotion.png';
-import figmaIcon from '../../assets/figma.png';
+import * as I from '../../assets/imports';
 import HoverIcon from '../HoverIcon';
 
 export default function AboutSection() {
@@ -43,21 +29,21 @@ export default function AboutSection() {
                 </div>
                 <div className='glow glow-sm glow-rgb mb-16'>
                         <div className='bg-dark grid md:grid-cols-5 grid-cols-3 gap-8 place-items-center p-8 overflow-hidden'>
-                            <HoverIcon img={htmlIcon} text='HTML' />
-                            <HoverIcon img={reactIcon} text='React' />
-                            <HoverIcon img={jsIcon} text='JavaScript' />
-                            <HoverIcon img={tsIcon} text='TypeScript' />
-                            <HoverIcon img={jqueryIcon} text='JQuery' />
-                            <HoverIcon img={cssIcon} text='CSS' />
-                            <HoverIcon img={sassIcon} text='SASS / SCSS' />
-                            <HoverIcon img={twIcon} text='Tailwind CSS' />
-                            <HoverIcon img={bootstrapIcon} text='Bootstrap' />
-                            <HoverIcon img={scIcon} text='Styled-Components' />
-                            <HoverIcon img={jestIcon} text='Jest' />
-                            <HoverIcon img={cypressIcon} text='Cypress' className='bg-white rounded-full' />
-                            <HoverIcon img={reduxIcon} text='Redux' />
-                            <HoverIcon img={motionIcon} text='Framer Motion' />
-                            <HoverIcon img={figmaIcon} text='Figma' />
+                            <HoverIcon img={I.htmlIcon} text='HTML' />
+                            <HoverIcon img={I.reactIcon} text='React' />
+                            <HoverIcon img={I.jsIcon} text='JavaScript' />
+                            <HoverIcon img={I.tsIcon} text='TypeScript' />
+                            <HoverIcon img={I.jqueryIcon} text='JQuery' />
+                            <HoverIcon img={I.cssIcon} text='CSS' />
+                            <HoverIcon img={I.sassIcon} text='SASS / SCSS' />
+                            <HoverIcon img={I.twIcon} text='Tailwind CSS' />
+                            <HoverIcon img={I.bootstrapIcon} text='Bootstrap' />
+                            <HoverIcon img={I.scIcon} text='Styled-Components' />
+                            <HoverIcon img={I.jestIcon} text='Jest' />
+                            <HoverIcon img={I.cypressIcon} text='Cypress' className='bg-white rounded-full' />
+                            <HoverIcon img={I.reduxIcon} text='Redux' />
+                            <HoverIcon img={I.motionIcon} text='Framer Motion' />
+                            <HoverIcon img={I.figmaIcon} text='Figma' />
                         </div>
                 </div>
                 <div className='relative w-full mx-auto shrink-0'> 
