@@ -1,6 +1,8 @@
 import cvIcon from '../../assets/cv-icon.png';
 import gitIcon from '../../assets/github-icon.png';
+import emailIcon from '../../assets/email-icon.png';
 import linkedIcon from '../../assets/linkedin-icon.png';
+import HoverIcon from '../HoverIcon';
 
 export default function Header() {
     return (
@@ -17,15 +19,18 @@ export default function Header() {
                     <span>{'>'}</span>
                     <span className='animate-blink'>_</span>
                 </div>
-                <div className="flex lg:gap-16 md:gap-10 gap-8 justify-center">
-                    <a href="https://linkedin.com/in/bem-hur-kuchler" target='_blank' className='glow glow-sm glow-rgb rounded-full'>
-                        <img className='lg:w-12 w-11' src={linkedIcon} alt="LinkedIn" />
+                <div className="flex md:gap-10 gap-8 justify-center">
+                    <a href="https://linkedin.com/in/bem-hur-kuchler" target='_blank'>
+                        <HoverIcon img={linkedIcon} text='LinkedIn' className='lg:w-12 w-11 glow glow-sm glow-rgb rounded-full' />
                     </a>
-                    <a href="https://github.com/benhurk" target='_blank' className='glow glow-sm glow-rgb rounded-full'>
-                        <img className='lg:w-12 w-11' src={gitIcon} alt="GitHub" />
+                    <a href="https://github.com/benhurk" target='_blank'>
+                        <HoverIcon img={gitIcon} text='GitHub' className='lg:w-12 w-11 glow glow-sm glow-rgb rounded-full' />
                     </a>
-                    <a href="" className='glow glow-sm glow-rgb rounded-full'>
-                        <img className='lg:w-12 w-11' src={cvIcon} alt="CV" />
+                    <a href='mailto:benhurk2801@gmail.com' target='_blank'>
+                        <HoverIcon img={emailIcon} text='Email' className='lg:w-12 w-11 glow glow-sm glow-rgb rounded-full' />
+                    </a>
+                    <a href="" target='_blank'>
+                        <HoverIcon img={cvIcon} text='CV' className='lg:w-12 w-11 glow glow-sm glow-rgb rounded-full' />
                     </a>
                 </div>
             </div>
