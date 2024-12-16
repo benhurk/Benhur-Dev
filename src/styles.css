@@ -71,4 +71,8 @@
     .glow-white-blue::before, .glow-white-blue::after {
         background-image: conic-gradient(from var(--glow-angle), #6699ee, #fff, #6699ee);
     }
+
+    button.selected {
+        @apply text-black bg-gradient-to-r from-sky-200 to-sky-100;
+    }
 }
