@@ -1,5 +1,6 @@
 import * as I from '../../assets/imports';
 import HoverIcon from '../HoverIcon';
+import TimePoint from '../TimePoint/index.';
 
 export default function AboutSection() {
     return (
@@ -19,40 +20,20 @@ export default function AboutSection() {
                             </span>
                         </address>
                 </div>
-                <div className='relative w-full mx-auto shrink-0 mb-16'> 
+                <div className='relative w-full mx-auto mb-16'> 
                     <p className='mb-16'>
-                    Comecei na programação como autodidata em desenvolvimento de games trabalhando em game jams, desenvolvendo minha paixão em criar coisas que as pessoas possam interagir. Assim, ingressei em um curso profissionalizante e atualmente busco iniciar minha carreira como desenvolvedor front-end.
+                    Comecei na programação como autodidata em desenvolvimento de games trabalhando em game jams, desenvolvendo meu interesse e paixão pela área. Posteriormente ingressei em um curso profissionalizante e atualmente busco iniciar minha carreira como desenvolvedor front-end.
                     </p>
-                    <div className='relative flex justify-between w-full *:relative'>
-                        <div>
-                            <div className='flex flex-col gap-4 items-center'>
-                                <div className='w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10'><div className='size-full bg-slate-900' /></div>
-                                <p className='text-lg text-center'>
-                                    <time className='border-b border-slate-600'>12/23 - 03/25</time>
-                                    <br/>
-                                    Curso
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <div className='flex flex-col gap-4 items-center'>
-                                <div className='w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10'><div className='size-full bg-slate-900' /></div>
-                                <div className='text-lg text-center'>
-                                    <time className='border-b border-slate-600'>11/24 - Agora</time>
-                                    <span className='block'>Projetos & Freela</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className='flex flex-col gap-4 items-center'>
-                                <div className='w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10'><div className='size-full bg-slate-900' /></div>
-                                <p className='text-lg text-center'>
-                                    <time className='border-b border-slate-600'>??/?? - ??/??</time>
-                                    <br/>
-                                    Curso
-                                </p>
-                            </div>
-                        </div>
+                    <div className='relative flex justify-between w-full'>
+                        <TimePoint time='... - 2023' title='Game dev' />
+                        <TimePoint time='12/23 - 12/24' title='Estudo de front-end'
+                        tooltip={<>
+                            <h3 className='font-bold mb-1'>Curso de desenvolvimento full-stack EBAC</h3>
+                            <p>Em <span className='font-mono'>8</span> meses terminei a matéria de front-end, decidi tirar os meses restantes do ano para me 
+                            aperfeiçoar e aprender novas tecnologias.</p>
+                            </>}
+                        />
+                        <TimePoint time='11/24 - Agora' title='Projetos & freela' />
                     </div>
                 </div>
                 <div className='glow glow-sm glow-rgb'>
