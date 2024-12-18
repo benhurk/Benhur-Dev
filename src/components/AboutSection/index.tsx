@@ -6,11 +6,10 @@ export default function AboutSection() {
     return (
         <section>
             <p className='mb-12'>
-                Comecei na programação como autodidata em desenvolvimento de games trabalhando em game jams, desenvolvendo meu interesse e paixão pela área. Posteriormente ingressei em um curso profissionalizante e atualmente busco iniciar minha carreira como desenvolvedor front-end.
+                Iniciei minha trajetória na programação como autodidata em desenvolvendo games, participando de game jams, o que despertou meu interesse em seguir carreira como programador. Posteriormente, comecei a estudar desenvolvimento web e de software, ingressando em um curso profissionalizante. Atualmente, estou focado em iniciar minha carreira como desenvolvedor front-end.
             </p>
-            <div className='flex justify-between mb-12'>
-                    <TimePoint time='... - 2023' title='Game dev' />
-                    <TimePoint time='12/23 - 12/24' title='Estudo de front-end'
+            <div className='flex md:flex-row md:justify-center md:gap-56 flex-col gap-32 mb-12'>
+                    <TimePoint time='12/23 - 12/24' title='Estudante de front-end'
                         tooltip={<>
                             <h3 className='font-bold mb-1'>Curso de desenvolvimento full-stack EBAC</h3>
                             <p>Em <span className='font-mono'>8</span> meses terminei a matéria de front-end, decidi tirar os meses restantes do ano para me 
