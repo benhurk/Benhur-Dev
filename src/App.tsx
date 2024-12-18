@@ -16,9 +16,9 @@ function App() {
     <SettingsProvider>
       <Header />
       <main className='lg:max-w-[768px] max-w-[90%] mx-auto py-8'>
-        <div className='mb-6 pb-4 border-b border-slate-600'>
+        <div className='mb-6 pb-6 border-b border-slate-600'>
             <div className='mb-4'>
-              <h2 className='text-center md:text-4xl text-3xl font-bold mb-1 tracking-wide text-transparent bg-gradient-to-b from-sky-300 to-white bg-clip-text'>
+              <h2 className='text-center md:text-4xl text-3xl font-bold mb-2 tracking-wide text-transparent bg-gradient-to-br from-sky-300 to-white bg-clip-text'>
                 Desenvolvedor front-end
               </h2>
               <address className='text-xl flex items-center gap-1 w-fit mx-auto'>

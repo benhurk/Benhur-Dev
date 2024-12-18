@@ -8,7 +8,7 @@ type Props = {
 
 export default function TimePoint({time, title, tooltip}: Props) {
     return (
-        <div className="relative group cursor-help w-32">
+        <div className="relative group w-32">
             <div className="flex flex-col gap-4 items-center">
                 <div className="w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10">
                     <div className="size-full bg-slate-900" />
