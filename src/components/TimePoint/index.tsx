@@ -8,15 +8,13 @@ type Props = {
 
 export default function TimePoint({time, title, tooltip}: Props) {
     return (
-        <div className="relative group w-32">
-            <div className="flex flex-col gap-4 items-center">
-                <div className="w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10">
-                    <div className="size-full bg-slate-900" />
-                </div>
-                <div className='text-lg text-center'>
-                    <time className='border-b border-slate-600'>{time}</time>
-                    <span className='block whitespace-nowrap'>{title}</span>
-                </div>
+        <div className="relative group flex flex-col gap-4 items-center">
+            <div className="w-8 h-8 animate-spin-slow glow glow-sm glow-rgb z-10">
+                <div className="size-full bg-slate-900" />
+            </div>
+            <div className='text-center'>
+                <time className='border-b border-slate-600'>{time}</time>
+                <span className='block whitespace-nowrap'>{title}</span>
             </div>
             {
                 tooltip &&
