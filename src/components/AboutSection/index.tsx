@@ -8,7 +8,7 @@ export default function AboutSection() {
             <p className='mb-12'>
                 Iniciei minha trajetória na programação como autodidata em desenvolvendo games, participando de game jams, o que despertou meu interesse em seguir carreira como programador. Posteriormente, comecei a estudar desenvolvimento web e de software, ingressando em um curso profissionalizante. Atualmente, estou focado em iniciar minha carreira como desenvolvedor front-end.
             </p>
-            <div className='flex md:flex-row md:justify-center md:gap-56 flex-col gap-32 mb-12'>
+            <div className='relative w-fit h-fit md:mx-auto flex md:flex-row flex-col md:gap-72 gap-24 mb-12'>
                     <TimePoint time='12/23 - 12/24' title='Estudante de front-end'
                         tooltip={<>
                             <h3 className='font-bold mb-1'>Curso de desenvolvimento full-stack EBAC</h3>
@@ -16,6 +16,7 @@ export default function AboutSection() {
                             aperfeiçoar e aprender novas tecnologias.</p>
                         </>}
                     />
+                    <div className='absolute md:top-4 md:left-0 md:w-full md:h-px h-[80%] w-px top-[10%] left-1/2 border border-dashed border-slate-400' />
                     <TimePoint time='11/24 - Agora' title='Projetos & freela' />
             </div>
             <div className='glow glow-sm glow-rgb'>
